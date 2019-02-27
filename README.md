@@ -7,6 +7,9 @@
 
 ---
 
+## Update
+Project probably abandoned 
+
 ## Why?
 
 Coz it's fun!
@@ -52,181 +55,12 @@ Contributions are always welcome. There's no code of conduct, so feel free to do
 
 **But don't forget to give it a star!**
 
-# Bravo
-
-    
-
-
-
-
-
-    
-    
-
-
-
-    
-
-        
-
-      WireGuard System Tray GUI
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      # Build 
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      ```
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      $ go get github.com/fsnotify/fsnotify
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      $ go get github.com/getlantern/systray
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      $ go get github.com/krlc/bravo/icon
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      $ go get github.com/mdlayher/wireguardctrl
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      $ go get gopkg.in/yaml.v2
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      $ go build
-
-    
-
-
-
-
-
-    
-    
-
-
-    
-
-        
-
-      ```
+# Build 
+```
+$ go get github.com/fsnotify/fsnotify
+$ go get github.com/getlantern/systray
+$ go get github.com/krlc/bravo/icon
+$ go get github.com/mdlayher/wireguardctrl
+$ go get gopkg.in/yaml.v2
+$ go build
+```
