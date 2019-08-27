@@ -5,11 +5,11 @@ import (
     "os/exec"
     "strconv"
 
-    "github.com/mdlayher/wireguardctrl"
+    "golang.zx2c4.com/wireguard/wgctrl"
 )
 
 type StatsStore struct {
-    w *wireguardctrl.Client
+    w *wgctrl.Client
 
     Alive bool
     Endpoint string
@@ -44,7 +44,7 @@ func toReadable(bytes int64) string {
 func (d *StatsStore) Update() *StatsStore {
     // init client
     if d.w == nil {
-        c, err := wireguardctrl.New()
+        c, err := wgctrl.New()
         if err != nil {
             log.Fatalf("Failed to open wireguardctrl: %v", err)
         }
