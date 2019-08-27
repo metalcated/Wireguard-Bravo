@@ -30,7 +30,7 @@ Currently, no `brew` or `apt-get` is available, so you'll be needing to compile 
 - Go get [Go](https://golang.org/dl/)
 - Then, clone it: `git clone https://github.com/krlc/bravo.git bravo`
 - Compile it: `make build`
-- And finally, `sudo ./bravo`
+- And finally, `sudo ./bravo &` (the & will detach the binary from the terminal session and allow you to close the terminal window)
 
 Straight after you hit enter to execute the last step, `bravo` icon should appear on the system tray, as shown below:
 
@@ -44,7 +44,7 @@ Install this: `sudo apt-get install libgtk-3-dev libappindicator3-dev` and follo
 
 <br>
 
-Despite the fact that it is running (hopefully), you mighta noticed that the terminal should remain opened in order for `bravo` to work, which is ~~disgusting~~ tremendously disgusting! 
+Despite the fact that it is running (hopefully), you mighta noticed that the terminal should remain open if you do not use a & sign as show above in order for `bravo` to work, which is ~~disgusting~~ tremendously disgusting! 
 Rest assured, though, the help is on its way.
 
 ## How would I use it?
