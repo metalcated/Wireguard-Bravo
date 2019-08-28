@@ -21,5 +21,5 @@ clean:
 
 run:
 	$(GOBUILD) -v -o ${BINARY_NAME}
-	echo "sudo ./$(BINARY_NAME) &" >> run.sh
+	echo "sudo ./$(BINARY_NAME) &" > run.sh
 	chmod +x run.sh && ./run.sh
