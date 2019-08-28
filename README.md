@@ -7,9 +7,6 @@
 
 ---
 
-## Update
-Project probably abandoned 
-
 ## Why?
 
 Coz it's fun!
@@ -30,7 +27,8 @@ Currently, no `brew` or `apt-get` is available, so you'll be needing to compile 
 - Go get [Go](https://golang.org/dl/)
 - Then, clone it: `git clone https://github.com/krlc/bravo.git bravo`
 - Compile it: `make build`
-- And finally, `sudo ./bravo`
+- And finally, run it `make run`
+- After initial run, you can run the binary using `./run.sh` from witnin the project directory.
 
 Straight after you hit enter to execute the last step, `bravo` icon should appear on the system tray, as shown below:
 
@@ -43,9 +41,6 @@ Straight after you hit enter to execute the last step, `bravo` icon should appea
 Install this: `sudo apt-get install libgtk-3-dev libappindicator3-dev` and follow the macOS setup.
 
 <br>
-
-Despite the fact that it is running (hopefully), you mighta noticed that the terminal should remain opened in order for `bravo` to work, which is ~~disgusting~~ tremendously disgusting! 
-Rest assured, though, the help is on its way.
 
 ## How would I use it?
 
@@ -60,7 +55,7 @@ Contributions are always welcome. There's no code of conduct, so feel free to do
 $ go get github.com/fsnotify/fsnotify
 $ go get github.com/getlantern/systray
 $ go get github.com/krlc/bravo/icon
-$ go get github.com/mdlayher/wireguardctrl
+$ go get golang.zx2c4.com/wireguard/wgctrl
 $ go get gopkg.in/yaml.v2
 $ go build
 ```
