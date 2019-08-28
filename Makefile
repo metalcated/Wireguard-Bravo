@@ -10,7 +10,7 @@ BINARY_NAME=bravo
 all: test build
 
 build: 
-	$(GOBUILD) -v
+	$(GOBUILD) -v -o ${BINARY_NAME}
 
 test:
 	$(GOTEST) -v ./...
@@ -20,5 +20,5 @@ clean:
 	rm -f $(BINARY_NAME)
 
 run:
-	$(GOBUILD) -v
-	sudo ./$(BINARY_NAME)
+	$(GOBUILD) -v -o ${BINARY_NAME}
+	sudo ./$(BINARY_NAME) &
