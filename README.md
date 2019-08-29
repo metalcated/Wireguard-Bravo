@@ -18,7 +18,8 @@ Struggling every signle time and asking myself a question: _"is WireGuard runnin
 
 ## How would I get it?
 
-First, make sure you have a working WireGuard setup and  have `wg-quick` tool installed.
+First, make sure you have a working WireGuard setup and have `wg-quick` tool installed making sure to name your client configuration file after the project: `/etc/wireguard/bravo.conf` 
+You can change this if you want by using a different config name and then setting the config file name in bravo.yaml i.e. If your config is named wg0.conf then change the first line in the bravo.yaml `wgConfig: wg0`
 
 ### macOS (and Windows, as soon as WireGuard team releases a client for it)
 
