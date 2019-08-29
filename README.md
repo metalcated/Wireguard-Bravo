@@ -23,7 +23,7 @@ You can change this if you want by using a different config name and then settin
 
 i.e. If your config is named `wg0.conf` then change the first line in the `bravo.yaml` -> `wgConfig: wg0`
 
-### macOS (and Windows, as soon as WireGuard team releases a client for it)
+### macOS/Linux
 
 Currently, no `brew` or `apt-get` is available, so you'll be needing to compile it by yourself.
 
