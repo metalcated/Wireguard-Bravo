@@ -28,7 +28,7 @@ i.e. If your config is named `wg0.conf` then change the first line in the `bravo
 Currently, no `brew` or `apt-get` is available, so you'll be needing to compile it by yourself.
 
 - Go get [Go](https://golang.org/dl/)
-- Then, clone it: `git clone https://github.com/krlc/bravo.git bravo`
+- Then, clone it: `git clone git@github.com:metalcated/Wireguard-Bravo.git`
 - Compile it: `make build`
 - And finally, run it `make run`
 - After initial run, you can run the binary using `./run.sh` from witnin the project directory.
